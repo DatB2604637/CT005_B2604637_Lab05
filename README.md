@@ -1,1 +1,1 @@
-# CT005_B2604637_Lab05
+## Lab05_Ex2.2: https://youtu.be/zNR4SbNGbGo

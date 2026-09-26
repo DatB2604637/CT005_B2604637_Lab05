@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lợi ích của công nghệ số trong học tập</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f4f6f2;
+      color: #142c43;
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .eyebrow {
+      color: #118b8d;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 16px 0 8px;
+      font-size: clamp(30px, 5vw, 52px);
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      margin: 0 0 28px;
+      color: #63747e;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.8fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    section {
+      overflow: hidden;
+      border: 1px solid #dce4df;
+      border-radius: 8px;
+      background: #fffefa;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 16px 20px;
+      border-bottom: 1px solid #dce4df;
+      font-size: 16px;
+    }
+
+    .infographic {
+      display: block;
+      width: 100%;
+      height: min(78vh, 1000px);
+      min-height: 560px;
+      border: 0;
+    }
+
+    .video {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      display: block;
+      background: #142c43;
+    }
+
+    .note {
+      margin: 0;
+      padding: 14px 20px;
+      color: #63747e;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    a { color: #118b8d; }
+
+    @media (max-width: 780px) {
+      main { padding-top: 22px; }
+      .content { grid-template-columns: 1fr; }
+      .infographic { height: 72vh; min-height: 480px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Học tập trong thời đại số</div>
+    <h1>Lợi ích của công nghệ số trong học tập</h1>
+    <p class="subtitle">Học mọi lúc, hiểu sâu hơn, kết nối rộng hơn.</p>
+
+    <div class="content">
+      <section>
+        <h2>Infographic</h2>
+        <iframe
+          class="infographic"
+          src="Lab05_Ex2.1.pdf#toolbar=0&amp;navpanes=0"
+          title="Infographic về lợi ích của công nghệ số trong học tập">
+        </iframe>
+        <p class="note">
+          Không xem được PDF?
+          <a href="Lab05_Ex2.1.pdf" target="_blank" rel="noopener">Mở infographic trong tab mới</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Video YouTube</h2>
+        <iframe
+          class="video"
+          src="https://www.youtube-nocookie.com/embed/zNR4SbNGbGo"
+          title="Video YouTube Lab05 Ex2.2"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+        <p class="note">
+          Video bài tập Lab05 Ex2.2.
+          <a href="https://youtu.be/zNR4SbNGbGo" target="_blank" rel="noopener">Mở trên YouTube</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
