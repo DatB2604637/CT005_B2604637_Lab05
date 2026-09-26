@@ -1,1 +1,1 @@
-## Lab05_Ex2.2: https://youtu.be/zNR4SbNGbGo
+## Lab05_Ex3.2: https://github.com/DatB2604637/CT005_Lap05
