@@ -1,1 +1,1 @@
-## Lab05_Ex3.2: https://github.com/DatB2604637/CT005_Lap05
+## Lab05_Ex3.2: https://github.com/DatB2604637/CT005_Lab05
